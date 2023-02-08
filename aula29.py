@@ -6,11 +6,17 @@ iter -> me entregue seu iterador
 '''
 # iter() e .__iter__() são a msm coisa
 
-texto = iter('Sabrina')  # .__iter__()
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
-print(texto.__next__())
+texto = ('Sabrina')  # .__iter__()
+iterador = iter(texto)
+
+while True:
+    try:
+        letra = next(iterador)
+        print(letra)
+    except StopIteration:
+        break
+# código de cima faz a msm coisa do de baixo
+# o de baixo é mais usado e mais simples
+
+for letra in texto:
+    print(letra)
