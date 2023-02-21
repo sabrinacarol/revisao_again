@@ -11,7 +11,7 @@ Criar  Ler  Alterar Apagar = lista[i] (CRUD)
 #         +01234
 #         -54321
 string = 'ABCDE'  # 5 caracteres (len)
-lista = [0, 1, 2, 3, 'a', 'oi']
+lista = [0, 1, 2, 3, 4, 5]
 # lista[2] = 200  # altera o valor
 # del lista[2]  # apaga o indice 2 da []
 # print(lista)
