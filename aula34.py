@@ -19,8 +19,12 @@ lista.append('Lazaro')
 for item in enumerate(lista):
     print(item)
 
-for item in enumerate(lista):
-    print(item)
+for tupla_enumerada in enumerate(lista):
+    print('FOR da tupla:')
+    for valor in tupla_enumerada:
+        print(f'\t{valor}')
+        print(f'\n{valor}')
+        # esse print exibe o for interno
 
 a = ["apple", "banana", "cherry"]
 b = ["Ford", "BMW", "Volvo"]
