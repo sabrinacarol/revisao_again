@@ -22,4 +22,3 @@ while True:
         try:
             indice = int(indice_str)
             del lista[indice]
-        
