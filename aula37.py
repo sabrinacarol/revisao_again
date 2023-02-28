@@ -15,7 +15,7 @@ salas = [
 # print(salas[0][1])
 # print(salas[2][3])
 # print(salas[2][3][2])
-# Entra na (lista 2) e depois entra na (tupla de indice 3) e depois mostra o (indice 3)
+# Entra na (lista 2) e depois entra na (tupla de indice 3) e depois mostra o (índice 3)
 
 # Na primeira [lista] na segunda o [índice]
 
