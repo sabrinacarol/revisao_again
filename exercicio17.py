@@ -24,4 +24,3 @@ Contrario disso:
     
  O primeiro dígito do CPF é 7
 '''
-
