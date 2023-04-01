@@ -1,5 +1,5 @@
 '''
-CPF: 605.678.813-00
+Criando um cpf válido
 '''
 
 # soma = 60+0+40+42+42+40+32+3+6
@@ -12,7 +12,6 @@ CPF: 605.678.813-00
 # print(resto_divisao)
 
 import random
-import sys
 
 for _ in range(100):
     nove_digitos = ''
