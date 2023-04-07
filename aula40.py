@@ -13,7 +13,6 @@ None (nada) quase como se fosse um False.
 # então deve-se começar com letra minúscula
 
 
-
 # def imprimir(a, b, c):
 #     print(a, b, c)
 
@@ -31,5 +30,3 @@ def saudacao(nome='Sem nome'):
 saudacao('Sabrina')
 saudacao('Kiara')
 saudacao()
-
-
