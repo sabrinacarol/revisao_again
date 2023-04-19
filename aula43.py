@@ -6,8 +6,10 @@ O escopo global é o escopo onde todo o código é alcançavel.
 O escopo local é o escopo onde apenas nomes do mesmo local
 podem ser alcançados.
 """
+x = 1
 
 def escopo():
     x = 1
     print(x)
-print(x)
+
+# esse print está fora da função print(x)
